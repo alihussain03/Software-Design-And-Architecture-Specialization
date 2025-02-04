@@ -112,7 +112,7 @@ of abstraction, encapsulation, and decomposition.
     - Decomposition
         - It consists of taking a whole thing, and dividing it into different parts. Alternately, decomposition can also
           indicate taking separate parts with different functionalities and combining them to create a whole.
-          Decomposition allows problems to broken into smaller pieces that are easier to understand and
+          Decomposition allows problems to break into smaller pieces that are easier to understand and
           solve.
 
 ---
