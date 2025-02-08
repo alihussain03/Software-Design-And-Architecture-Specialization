@@ -127,7 +127,8 @@ of abstraction, encapsulation, generalization and decomposition.
 - **Information Hiding**
 - **Conceptual integrity**
 - **Inheritance issues**
-
+- **Sequence Diagram**
+- **State Diagram**
 ---
 
 ### 2️⃣ Design Patterns
