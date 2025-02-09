@@ -122,13 +122,18 @@ of abstraction, encapsulation, generalization and decomposition.
 
 #### Module 3: Design Principles
 
-- **Coupling and cohesion**
-- **Separate of concerns**
-- **Information Hiding**
-- **Conceptual integrity**
-- **Inheritance issues**
-- **Sequence Diagram**
-- **State Diagram**
+- **General PrinciplesCoupling and cohesion**
+    - **Coupling and cohesion**
+    - **Separate of concerns**
+    - **Information Hiding**
+    - **Conceptual integrity**
+- **Generalization Principles**
+    - **Inheritance issues**
+
+- **Modeling Behaviour**
+    - **Sequence Diagram**
+    - **State Diagram**
+
 ---
 
 ### 2️⃣ Design Patterns
