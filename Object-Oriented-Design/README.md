@@ -133,6 +133,30 @@ of abstraction, encapsulation, generalization and decomposition.
 - **Modeling Behaviour**
     - **Sequence Diagram**
     - **State Diagram**
+        - A state diagram is a technique used to describe how a system behaves and responds to events.
+        - It depicts how a single object behaves in response to events in a system.
+        - A state is the way an object exists at a particular point in time. The state of an object is determined by the
+          values of its attributes.
+        - Elements of State diagram
+            - A filled circle indicates the starting state of the object. Every state diagram begins with a filled
+              circle.
+            - Rounded rectangles indicate other states. These rectangles have three sections: a state name, state
+              variables, and activities.
+            - Activities are actions performed while in a certain state. There are three types of activities:
+                - Entry activity: Actions that occur when the state is first entered from another state.
+                - Do activity: Actions that occur while the object remains in a certain state.
+                - Exit activity: Actions that occur when the state is exited, transitioning to another state.
+            - Arrows indicate transitions from one state to another. Transitions are typically triggered by an event,
+              which is usually described above the arrow.
+    - Uses of State diagrams
+        - State diagrams help identify events that might occur during an object’s lifetime, such as different user
+          inputs, and define how the object should behave in response, including checking conditions and performing
+          actions.
+        - They provide a visual representation of state changes, which can be easier to understand than reading source
+          code.
+        - State diagrams can help identify potential issues in a software system, such as unplanned conditions.
+        - They assist in test creation—understanding the different states of a system ensures that test cases are
+          complete and correct.
 
 ---
 
