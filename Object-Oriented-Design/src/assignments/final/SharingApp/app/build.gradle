@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace "com.example.sharingapp" // Required for modern Gradle
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.sharingapp"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // Use AndroidX instead of support libraries
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'com.google.android.material:material:1.10.0'
+
+    // Replace manual Gson JAR with Maven dependency
+    implementation 'com.google.code.gson:gson:2.8.9'
+
+    // Espresso for testing (latest version)
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    // JUnit for testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+}
