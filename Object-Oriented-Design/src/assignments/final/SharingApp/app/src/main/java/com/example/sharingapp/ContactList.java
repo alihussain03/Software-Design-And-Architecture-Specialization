@@ -7,6 +7,10 @@ public class ContactList {
     private ArrayList<Contact> contacts;
     private String FILENAME;
 
+    public ContactList() {
+        contacts = new ArrayList<Contact>();
+    }
+
     public void setContacts(ArrayList<Contact> contacts_list) {
         this.contacts = contacts_list;
     }
@@ -25,8 +29,11 @@ public class ContactList {
         contacts.remove(contact);
     }
 
-    public void getContact(int index) {
-        contacts.get(index);
+    public Contact getContact(int index) {
+        if (index >= 0 && index < contacts.size()) {
+            return contacts.get(index);
+        }
+        return null;
     }
 
     public int getSize() {
@@ -53,18 +60,5 @@ public class ContactList {
     }
 
     public boolen isUsernameAvaialable(String username) {
-    }
-
-    public ArrayList<Contact> getContacts() {
-        return contacts;
-    }
-
-
-    public String getFILENAME() {
-        return FILENAME;
-    }
-
-    public void setFILENAME(String FILENAME) {
-        this.FILENAME = FILENAME;
     }
 }
