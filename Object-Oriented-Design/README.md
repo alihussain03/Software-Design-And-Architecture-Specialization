@@ -94,33 +94,79 @@ of abstraction, encapsulation, generalization and decomposition.
             - In Java, generalization is primarily implemented using
                 - Inheritance: A subclass inherits properties and behaviors from a superclass, promoting code
                   reusability.
+                    - A hollow triangle is used to represent inheritance (generalization). ClassA ▲── ClassB ClassA is
+                      the parent (superclass), and ClassB is the child (subclass). ClassB inherits from ClassA and can
+                      override or extend its behavior.
                 - Interfaces: Define a contract that multiple classes can implement, allowing for flexible and scalable
                   design.
+                    - A hollow triangle with a dashed line is used to represent an interface implementation.
+                    - InterfaceA △─── ClassB The dashed line represents an implementation relationship, meaning ClassB
+                      must provide implementations for the methods defined in InterfaceA.
     - **Decomposition**
         - It involves breaking down a whole into smaller, manageable parts. Alternatively, decomposition can also refer
           to combining separate parts with different functionalities to form a complete system. It helps in simplifying
           complex problems, making them easier to understand and solve. it can be achieved using 3 ways.
             - Aggregation: Dividing the whole into parts that can exist independently, yet still work together (e.g., a
               university having multiple departments).
+                - Hollow diamond used to present aggregation. ClassA ◇── ClassB ClassA is a whole(Aggregator) and ClassB
+                  is part. ClassB can exist independently of ClassA.
             - Composition: Breaking down a system into parts that are tightly coupled, where the whole and parts cannot
               exist without each other (e.g., a car with an engine, where the car depends on the engine).
+                - Filled diamond used to present composition. ClassA ◆── ClassB. ClassA is a whole (Composer) and ClassB
+                  is a part. ClassB cannot exist independently of ClassA.
             - Association: Establishing loose relationships between objects, where parts can function independently but
               are linked to work together (e.g., a driver driving a car).
+            - A simple line is used to present association. ClassA ── ClassB ClassA and ClassB are related, but neither
+              owns the other.
+              Both can exist independently.
 
 ---
 
 ### Module 3: Design Principles
 
 - **General PrinciplesCoupling and cohesion**
-    - **Coupling and cohesion**
-    - **Separate of concerns**
-    - **Information Hiding**
-    - **Conceptual integrity**
+    - **Coupling**
+        - Coupling measures the complexity of a module's dependency on others. It ranges from tight coupling (bad
+          design, high dependency) to loose coupling (good design, independent interaction via well-defined interfaces).
+        - To evaluate coupling, consider three metrics:
+            - Degree – The number of connections; fewer connections mean looser coupling.
+            - Ease – How simple and clear the connections are without needing deep knowledge of other modules.
+            - Flexibility – How easily modules can be replaced or upgraded without major changes.
+        - A well-designed system aims for loose coupling to improve modularity and maintainability.
+- **Cohesion**
+    - Cohesion measures how clearly a module defines its responsibilities. High cohesion means a module has a single,
+      well-defined purpose, while low cohesion indicates multiple responsibilities or unclear encapsulation. Good design
+      aims for high cohesion. However, achieving high cohesion can increase module dependencies (coupling), while
+      reducing coupling may lower cohesion
+      by increasing module complexity. A balanced approach is essential for effective system design.
+- **Separate of concerns**
+    - Separation of concerns (SoC) is a design principle that involves organizing a system in such a way that different
+      concerns or aspects of the system are addressed separately, rather than being mixed together. A "concern" refers
+      to any part of the software that is important for solving a problem, such as data handling, business logic, or
+      user interface.
+- **Information Hiding**
+    - Information hiding, closely tied to encapsulation, involves bundling attributes and behaviors within a class while
+      restricting access to certain functions. Encapsulation hides the implementation of behaviors behind an interface,
+      allowing other classes to interact only through defined methods. This enables changes to the implementation
+      without affecting the expected outcomes.
+    - Additionally, information hiding can prevent direct modification of critical attributes, ensuring that sensitive
+      data remains protected. Access modifiers are used to control which classes can access attributes and methods, and
+      what is shared between a superclass and its subclasses.
+- **Conceptual integrity**
+    - Conceptual integrity refers to the consistency and coherence of the design and overall vision of a software
+      system. It ensures that all components of the system work together in a unified way, aligned with a clear,
+      well-defined purpose or architecture. When a system exhibits conceptual integrity, the design decisions are
+      consistent across the entire system, avoiding conflicting approaches or fragmented logic.
+
 - **Generalization Principles**
     - **Inheritance issues**
 
 - **Modeling Behaviour**
     - **Sequence Diagram**
+        - UML sequence diagrams are a useful tool in software design, typically created before development begins. They
+          show how objects in a program interact to complete tasks, much like a map of conversations between
+          individuals, with messages exchanged between them. Sequence diagrams help visualize the classes to be created,
+          identify required functions, and uncover potential problems in the system that were previously unknown.
     - **State Diagram**
         - A state diagram is a technique used to describe how a system behaves and responds to events.
         - It depicts how a single object behaves in response to events in a system.
