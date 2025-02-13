@@ -43,4 +43,16 @@
   needed to be called as lazy creation. There are trade-offs to the Singleton design principle. If there are multiple
   computing threads running, there could be issues caused by the threads trying to access the shared single object.
 - **Factory Pattern**
-- 
+    - The Factory Method pattern in Java is a creational design pattern used to create objects without specifying the
+      exact class that will be instantiated. Instead of calling a constructor directly, we delegate the object creation
+      to a factory method.
+    - Key concepts
+        - Encapsulation of Object Creation – The exact class of the object to be created is hidden from the client.
+        - Promotes Loose Coupling – The client depends on an interface or abstract class, not concrete implementations.
+        - Enhances Maintainability – Easier to modify object creation logic without affecting the client code.
+    - Factory method pattern structure(true for most cases)
+        - Product Interface (or Abstract Class) – Defines the common interface for all products.
+        - Concrete Product Classes – Implement the product interface.
+        - Creator (Factory Class) – Declares a method to return objects of type Product.
+        - Concrete Creator(s) – Implement the factory method to create specific products.
+
