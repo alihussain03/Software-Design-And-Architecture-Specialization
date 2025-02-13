@@ -100,7 +100,8 @@ of abstraction, encapsulation, generalization and decomposition.
                 - Interfaces: Define a contract that multiple classes can implement, allowing for flexible and scalable
                   design.
                     - A hollow triangle with a dashed line is used to represent an interface implementation.
-                    - InterfaceA △─── ClassB The dashed line represents an implementation relationship, meaning ClassB
+                    - InterfaceA △- - - - ClassB The dashed line represents an implementation relationship, meaning
+                      ClassB
                       must provide implementations for the methods defined in InterfaceA.
     - **Decomposition**
         - It involves breaking down a whole into smaller, manageable parts. Alternatively, decomposition can also refer
@@ -192,5 +193,12 @@ of abstraction, encapsulation, generalization and decomposition.
         - State diagrams can help identify potential issues in a software system, such as unplanned conditions.
         - They assist in test creation—understanding the different states of a system ensures that test cases are
           complete and correct.
+- Model Checking
+    - In addition to design techniques, it's crucial to know how to verify a software system. Techniques like unit
+      testing, beta testing, and simulations are common, with model checking being another important method. Model
+      checking involves systematically examining a system’s state model across all possible states to identify errors.
+      It simulates various events that change states and variables, revealing flaws or rule violations. Model checking
+      software can automate this process and is often used during testing. For example, it could detect a potential
+      deadlock scenario, where two tasks are waiting for the same resource, by simulating all possible states.
 
 ---
