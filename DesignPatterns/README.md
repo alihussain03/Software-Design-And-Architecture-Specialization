@@ -55,4 +55,16 @@
         - Concrete Product Classes – Implement the product interface.
         - Creator (Factory Class) – Declares a method to return objects of type Product.
         - Concrete Creator(s) – Implement the factory method to create specific products.
+- **Facade Pattern**
+    - The façade design pattern attempts to provide a single, simplified interface for client classes to interact with a
+      subsystem. It is a structural design pattern. A façade is a wrapper class that encapsulates a subsystem in
+      order to hide the subsystem’s complexity; it acts as a point of entry into a subsystem without adding more
+      functionality in itself. The wrapper class allows a client class to interact with the subsystem through the
+      façade. A façade might be compared metaphorically to a waiter or salesperson, who hides all the extra work to be
+      done in order to purchase a good or service
+- **Adapter Pattern**
+- **Composite Pattern**
 
+---
+
+- ![img.png](src/resources/img.png)
