@@ -67,4 +67,38 @@
 
 ---
 
+### Module 2: Behavioural Design Patterns
+
+How individual object collaborate to achieve a common goal.
+
+- **Template Method Pattern**
+    - it defines an algorithm steps generally, deferring the implementation of some steps to subclasses. it is concerned
+      with the assignment of responsibilities.
+    - when you classes with a very similar order of operations, template method could be a option.
+    - Template method pattern is a practical application of generalization and inheritance.
+- **Chain of Responsibility Pattern**
+    - a chain of objects that are responsible for handling requests.
+    - Chain of handlers. if a handler cannot handle a request, it will transfer request to next handler.
+    - set up a chain of email filter, if a request does not meet one criterion, it goes to next filter.
+- **State Pattern**
+    - it is used when you need to change the behaviour of an object based upon the state that its in at run time.
+- **Command Pattern**
+    - this pattern encapsulates the request as an object of its own.
+    - Invoker
+    - Command
+    - Concreate Command
+    - Receiver
+- **Mediator Pattern**
+- **Observer Pattern**
+    - it is used when you need to notify a group of objects about a change in state of another object.
+    - it is a one-to-many relationship.
+
+---
+
+### Module 3: MVC Pattern
+
+it allows us to separate the concerns of the application into three different components. Model, view and controller.
+
+---
+
 - ![img.png](src/resources/img.png)
