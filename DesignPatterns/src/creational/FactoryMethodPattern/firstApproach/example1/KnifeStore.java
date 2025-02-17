@@ -1,4 +1,4 @@
-package creational.FactoryMethodPattern.example1;
+package creational.FactoryMethodPattern.firstApproach.example1;
 
 abstract class KnifeStore {
     // Factory Method - Subclasses will implement this

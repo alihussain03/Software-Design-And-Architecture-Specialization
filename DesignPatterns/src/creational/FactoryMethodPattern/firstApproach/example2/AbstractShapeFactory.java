@@ -1,4 +1,4 @@
-package creational.FactoryMethodPattern.example2;
+package creational.FactoryMethodPattern.firstApproach.example2;
 
 public abstract class AbstractShapeFactory {
     protected abstract Shape factoryMthod();
