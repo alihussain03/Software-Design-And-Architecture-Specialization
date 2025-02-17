@@ -1,4 +1,4 @@
-package creational.FactoryMethodPattern;
+package creational.FactoryMethodPattern.example1;
 
 public class SimpleKnifeStore extends KnifeStore {
     @Override

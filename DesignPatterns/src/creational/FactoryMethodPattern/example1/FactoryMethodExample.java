@@ -1,4 +1,4 @@
-package creational.FactoryMethodPattern;
+package creational.FactoryMethodPattern.example1;
 
 public class FactoryMethodExample {
     public static void main(String[] args) {

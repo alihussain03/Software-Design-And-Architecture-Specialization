@@ -1,4 +1,4 @@
-package creational.FactoryMethodPattern;
+package creational.FactoryMethodPattern.example1;
 
 class SteakKnife implements Knife {
     @Override
