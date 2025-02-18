@@ -50,11 +50,36 @@
         - Encapsulation of Object Creation – The exact class of the object to be created is hidden from the client.
         - Promotes Loose Coupling – The client depends on an interface or abstract class, not concrete implementations.
         - Enhances Maintainability – Easier to modify object creation logic without affecting the client code.
+    - In the Factory Design Pattern, the terms Product and Factory refer to the roles that different classes play in
+      object creation
+        - Product: The Product is the object that the factory creates. It is usually an interface or an abstract class
+          that defines the structure of the objects that will be produced like Shape interface with Draw method.
+          Concrete implementations of the product extend or implement this structure like Circle extends Shape.
+        - Factory: The Factory is the class that creates the Product. It is an interface or an abstract class that
+          defines the method to create the Product. Concrete implementations of the factory create specific products
+          like ShapeFactory implements Factory. The factory method ensures that the object creation logic is centralized
+          and follows the Open/Closed Principle (open for extension, closed for modification)
     - Factory method pattern structure(true for most cases)
         - Product Interface (or Abstract Class) – Defines the common interface for all products.
         - Concrete Product Classes – Implement the product interface.
         - Creator (Factory Class) – Declares a method to return objects of type Product.
         - Concrete Creator(s) – Implement the factory method to create specific products.
+- **Abstract Factory Pattern**
+    - The Abstract Factory pattern is a Creational design pattern that provides an interface for creating families of
+      related or dependent objects without specifying their concrete classes. It is a super-factory that creates other
+      factories. The Abstract Factory pattern is also known as the Kit pattern.
+    - Abstract Factory pattern structure
+        - Abstract Factory Interface – Declares a set of methods to create products.
+        - Concrete Factory Classes – Implement the factory interface to create products.
+        - Abstract Product Interface – Declares a set of methods that all products will implement.
+        - Concrete Product Classes – Implement the product interface.
+    - The Abstract Factory pattern is useful when you need to create a family of related objects. For example, if you
+      have a GUI library, you might have a set of classes that create buttons, text fields, and other GUI components.
+      The Abstract Factory pattern allows you to create a factory that creates all of these components. The Abstract
+      Factory pattern is also useful when you need to create objects that are related to each other. For example, if you
+      have a set of classes that represent different types of animals, you might have a factory that creates all of
+      these
+      animals.
 - **Facade Pattern**
     - The façade design pattern attempts to provide a single, simplified interface for client classes to interact with a
       subsystem. It is a structural design pattern. A façade is a wrapper class that encapsulates a subsystem in
