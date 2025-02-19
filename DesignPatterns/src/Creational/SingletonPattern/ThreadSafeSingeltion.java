@@ -1,4 +1,4 @@
-package Creational.Singeltion;
+package Creational.SingletonPattern;
 
 public class ThreadSafeSingeltion {
     private static volatile ThreadSafeSingeltion instance;

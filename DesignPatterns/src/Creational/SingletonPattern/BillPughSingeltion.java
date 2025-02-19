@@ -1,4 +1,4 @@
-package Creational.Singeltion;
+package Creational.SingletonPattern;
 
 public class BillPughSingeltion {
     private BillPughSingeltion() {

@@ -1,11 +1,11 @@
-package Creational.Builder.example1;
+package Creational.BuilderPattern.example1;
 
-public class SportsCarBuilder implements CarBuilder {
+class SUVBuilder implements CarBuilder {
     private Car car = new Car();
 
     @Override
     public void buildEngine() {
-        car.setEngine("V8 Turbo");
+        car.setEngine("V6 Diesel");
     }
 
     @Override
@@ -15,12 +15,12 @@ public class SportsCarBuilder implements CarBuilder {
 
     @Override
     public void buildSunroof() {
-        car.setSunroof(true);
+        car.setSunroof(false);
     }
 
     @Override
     public void buildTransmission() {
-        car.setTransmission("Automatic");
+        car.setTransmission("Manual");
     }
 
     @Override
@@ -28,3 +28,4 @@ public class SportsCarBuilder implements CarBuilder {
         return car;
     }
 }
+

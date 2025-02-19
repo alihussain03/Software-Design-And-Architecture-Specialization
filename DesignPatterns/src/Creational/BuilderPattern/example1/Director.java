@@ -1,4 +1,4 @@
-package Creational.Builder.example1;
+package Creational.BuilderPattern.example1;
 
 public class Director {
     public void constructSportsCar(CarBuilder carBuilder) {

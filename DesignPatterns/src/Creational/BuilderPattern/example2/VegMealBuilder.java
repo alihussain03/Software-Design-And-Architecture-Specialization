@@ -1,4 +1,4 @@
-package Creational.Builder.example2;
+package Creational.BuilderPattern.example2;
 
 class VegMealBuilder implements MealBuilderInterface {
     private Meal vegMeal = new Meal();

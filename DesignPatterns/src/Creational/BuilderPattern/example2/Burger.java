@@ -1,4 +1,4 @@
-package Creational.Builder.example2;
+package Creational.BuilderPattern.example2;
 
 public abstract class Burger implements Item {
     @Override

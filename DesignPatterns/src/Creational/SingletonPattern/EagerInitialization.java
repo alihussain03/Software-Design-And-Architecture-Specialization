@@ -1,4 +1,4 @@
-package Creational.Singeltion;
+package Creational.SingletonPattern;
 
 // The instance is created at the time of class loading.
 // Instance is created even if it’s not used. Not good
