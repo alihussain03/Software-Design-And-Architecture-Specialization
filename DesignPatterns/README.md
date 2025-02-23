@@ -80,6 +80,16 @@
       have a set of classes that represent different types of animals, you might have a factory that creates all of
       these
       animals.
+- **Builder Pattern**
+    - The Builder pattern is a Creational design pattern that allows you to create complex objects step by step. It is
+      useful when you need to create an object that requires a lot of configuration. The Builder pattern is similar to
+      the Abstract Factory pattern, but it is more focused on creating complex objects. The Builder pattern is useful
+      when you need to create an object that requires a lot of configuration. For example, if you have a class that
+      represents a computer, you might need to set the processor, memory, and hard drive. The Builder pattern allows you
+      to create a builder that sets each of these properties step by step. The Builder pattern is also useful when you
+      need to create an object that has a lot of optional properties. For example, if you have a class that represents a
+      car, you might need to set the color, engine size, and transmission type. The Builder pattern allows you to create
+      a builder that sets each of these properties step by step.
 - **Facade Pattern**
     - The façade design pattern attempts to provide a single, simplified interface for client classes to interact with a
       subsystem. It is a structural design pattern. A façade is a wrapper class that encapsulates a subsystem in

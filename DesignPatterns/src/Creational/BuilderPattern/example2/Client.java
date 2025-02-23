@@ -8,7 +8,7 @@ public class Client {
     public static void main(String[] args) {
         System.out.println("***Meal Pattern Demo***\n");
 
-        Director director = new Director();
+        MealDirector director = new MealDirector();
 
         MealBuilderInterface vegMealBuilder = new VegMealBuilder();
         MealBuilderInterface nonVegMealBuilder = new NonVegMealBuilder();

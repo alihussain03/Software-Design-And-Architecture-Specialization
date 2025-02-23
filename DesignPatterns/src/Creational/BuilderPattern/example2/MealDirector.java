@@ -2,12 +2,12 @@ package Creational.BuilderPattern.example2;
 
 import Creational.BuilderPattern.example2.MealBuilder.MealBuilderInterface;
 
-class Director {
-    MealBuilderInterface myBuilder;
+class MealDirector {
+    MealBuilderInterface mealBuilder;
 
     public void construct(MealBuilderInterface builder) {
-        myBuilder = builder;
-        myBuilder.buildBurger();
-        myBuilder.buildDrink();
+        mealBuilder = builder;
+        mealBuilder.buildBurger();
+        mealBuilder.buildDrink();
     }
 }
