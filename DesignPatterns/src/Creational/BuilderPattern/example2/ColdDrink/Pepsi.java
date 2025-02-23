@@ -1,4 +1,4 @@
-package Creational.BuilderPattern.example2;
+package Creational.BuilderPattern.example2.ColdDrink;
 
 public class Pepsi extends ColdDrink {
     @Override

@@ -1,6 +1,10 @@
-package Creational.BuilderPattern.example2;
+package Creational.BuilderPattern.example2.MealBuilder;
 
-class VegMealBuilder implements MealBuilderInterface {
+import Creational.BuilderPattern.example2.Burger.VeggieBurger;
+import Creational.BuilderPattern.example2.ColdDrink.Coke;
+import Creational.BuilderPattern.example2.Meal;
+
+public class VegMealBuilder implements MealBuilderInterface {
     private Meal vegMeal = new Meal();
 
     @Override

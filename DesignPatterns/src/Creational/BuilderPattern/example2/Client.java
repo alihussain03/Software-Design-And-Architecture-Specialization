@@ -1,5 +1,9 @@
 package Creational.BuilderPattern.example2;
 
+import Creational.BuilderPattern.example2.MealBuilder.MealBuilderInterface;
+import Creational.BuilderPattern.example2.MealBuilder.NonVegMealBuilder;
+import Creational.BuilderPattern.example2.MealBuilder.VegMealBuilder;
+
 public class Client {
     public static void main(String[] args) {
         System.out.println("***Meal Pattern Demo***\n");

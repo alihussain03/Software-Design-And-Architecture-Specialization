@@ -1,4 +1,4 @@
-package Creational.BuilderPattern.example2;
+package Creational.BuilderPattern.example2.Burger;
 
 public class ChickenBurger extends Burger {
 

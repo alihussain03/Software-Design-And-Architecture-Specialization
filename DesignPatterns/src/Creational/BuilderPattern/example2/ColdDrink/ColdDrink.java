@@ -1,4 +1,7 @@
-package Creational.BuilderPattern.example2;
+package Creational.BuilderPattern.example2.ColdDrink;
+
+import Creational.BuilderPattern.example2.Item;
+import Creational.BuilderPattern.example2.Packing;
 
 public abstract class ColdDrink implements Item {
     @Override
@@ -10,10 +13,3 @@ public abstract class ColdDrink implements Item {
     public abstract float price();
 }
 
-class Bottle implements Packing {
-
-    @Override
-    public String pack() {
-        return "Bottle";
-    }
-}
