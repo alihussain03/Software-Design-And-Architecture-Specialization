@@ -1,5 +1,10 @@
 package Creational.FactoryMethodPattern.firstApproach.example2;
 
+import Creational.FactoryMethodPattern.firstApproach.example2.factory.CircleFactory;
+import Creational.FactoryMethodPattern.firstApproach.example2.factory.RectangleFactory;
+import Creational.FactoryMethodPattern.firstApproach.example2.factory.SquareFactory;
+import Creational.FactoryMethodPattern.firstApproach.example2.product.Shape;
+
 public class Client {
     public static void main(String[] args) {
         //get an object of Circle and call its draw method.
