@@ -5,7 +5,7 @@ import Creational.AbstractFactoryPattern.example1.Shape.Shape;
 
 public class ColorFactory extends AbstractFactory {
     @Override
-    Color getColor(String color) {
+    public Color getColor(String color) {
         if (color == null) {
             return null;
         }
@@ -21,7 +21,7 @@ public class ColorFactory extends AbstractFactory {
     }
 
     @Override
-    Shape getShape(String shape) {
+    public Shape getShape(String shape) {
 
         return null;
     }

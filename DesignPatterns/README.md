@@ -43,7 +43,10 @@
   needed to be called as lazy creation. There are trade-offs to the Singleton design principle. If there are multiple
   computing threads running, there could be issues caused by the threads trying to access the shared single object.
 - **Factory Pattern**
-    - The Factory Method pattern in Java is a Creational design pattern used to create objects without specifying the
+    - The Factory Method Pattern defines an interface for creating objects, but allows subclasses to alter the type of
+      objects that will be created. It provides a way to delegate the instantiation of objects to subclasses, promoting
+      flexibility and reducing tight coupling between client code and concrete classes. The Factory Method pattern in
+      Java is a Creational design pattern used to create objects without specifying the
       exact class that will be instantiated. Instead of calling a constructor directly, we delegate the object creation
       to a factory method.
     - Key concepts
@@ -65,7 +68,10 @@
         - Creator (Factory Class) – Declares a method to return objects of type Product.
         - Concrete Creator(s) – Implement the factory method to create specific products.
 - **Abstract Factory Pattern**
-    - The Abstract Factory pattern is a Creational design pattern that provides an interface for creating families of
+    - The Abstract Factory Method Pattern provides an interface for creating families of related or dependent objects
+      without specifying their concrete classes. It involves multiple factory methods, each responsible for creating
+      different types of related products, ensuring consistency across families of objects. The Abstract Factory pattern
+      is a Creational design pattern that provides an interface for creating families of
       related or dependent objects without specifying their concrete classes. It is a super-factory that creates other
       factories. The Abstract Factory pattern is also known as the Kit pattern.
     - Abstract Factory pattern structure

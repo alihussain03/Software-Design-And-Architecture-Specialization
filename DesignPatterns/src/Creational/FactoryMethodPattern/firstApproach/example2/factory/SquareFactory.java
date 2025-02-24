@@ -6,7 +6,7 @@ import Creational.FactoryMethodPattern.firstApproach.example2.product.Square;
 public class SquareFactory extends AbstractShapeFactory {
 
     @Override
-    protected Shape factoryMthod() {
+    protected Shape factoryMethod() {
         return new Square();
     }
 }

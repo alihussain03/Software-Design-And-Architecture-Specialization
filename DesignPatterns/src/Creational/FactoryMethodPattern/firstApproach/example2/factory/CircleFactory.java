@@ -5,7 +5,7 @@ import Creational.FactoryMethodPattern.firstApproach.example2.product.Shape;
 
 public class CircleFactory extends AbstractShapeFactory {
     @Override
-    protected Shape factoryMthod() {
+    protected Shape factoryMethod() {
         return new Circle();
     }
 }

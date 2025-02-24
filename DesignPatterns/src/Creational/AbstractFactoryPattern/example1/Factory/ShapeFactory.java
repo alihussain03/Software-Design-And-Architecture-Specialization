@@ -9,12 +9,12 @@ import Creational.AbstractFactoryPattern.example1.Shape.Square;
 
 public class ShapeFactory extends AbstractFactory {
     @Override
-    Color getColor(String color) {
+    public Color getColor(String color) {
         return null;
     }
 
     @Override
-    Shape getShape(String shape) {
+    public Shape getShape(String shape) {
         if (shape == null) {
             return null;
         }

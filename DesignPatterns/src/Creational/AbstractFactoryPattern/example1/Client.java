@@ -1,9 +1,9 @@
 package Creational.AbstractFactoryPattern.example1;
 
-import Creational.AbstractFactoryPattern.example1.Shape.Shape;
 import Creational.AbstractFactoryPattern.example1.Color.Color;
 import Creational.AbstractFactoryPattern.example1.Factory.AbstractFactory;
 import Creational.AbstractFactoryPattern.example1.Factory.FactoryProducer;
+import Creational.AbstractFactoryPattern.example1.Shape.Shape;
 
 public class Client {
     public static void main(String[] args) {
