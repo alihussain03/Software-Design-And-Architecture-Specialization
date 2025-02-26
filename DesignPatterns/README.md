@@ -136,6 +136,24 @@
             - Client
         - **Bridge Pattern**
         - **Composite Pattern**
+            - The Composite pattern is a structural design pattern that
+              allows you to compose objects into tree structures to represent part-whole hierarchies. The Composite
+              pattern is useful when you need to work with objects that form a part-whole hierarchy. For example,
+                - if you have a class that represents a file system, you might have a set of classes that represent
+                  files and directories. The Composite pattern allows you to treat files and directories in the same
+                  way, making it easier to work with them.
+                - The Composite pattern is also useful when you need to work with objects that
+                  have a recursive structure. For example, if you have a class that represents a company, you might have
+                  a set of classes that represent departments and employees. The Composite pattern allows you to treat
+                  departments and employees in the same way, making it easier to work with them.
+                - it can be use When you want to reduce code duplication by handling both simple and complex elements
+                  uniformly.
+            - Component
+                - Leaf: A Leaf is an end object in the structure. It does not contain any children. Example: In a File
+                  System, a File is a Leaf because it cannot contain other files or folders.
+                - Composite: A Composite is an object that can contain other objects. It can contain both Leaf and
+                  Composite objects. Example: In a File System, a Folder is a Composite because it can contain other
+                  files and folders.
         - **Decorator Pattern**
         - **Facade Pattern**
             - The façade design pattern attempts to provide a single, simplified interface for client classes to
@@ -144,10 +162,10 @@
               subsystem without adding more functionality in itself. The wrapper class allows a client class to interact
               with the subsystem through the façade. A façade might be compared metaphorically to a waiter or
               salesperson, who hides all the extra work to be done in order to purchase a good or service
-        - **Flyweight Pattern**
-        - **Proxy Pattern**
-    - **Behavioural Patterns:** focus on how objects distribute work and describe how each object does a single
-      cohesive function. Behavioral patterns also focus on how independent objects work towards a common goal.
+                - **Flyweight Pattern**
+                - **Proxy Pattern**
+        - **Behavioural Patterns:** focus on how objects distribute work and describe how each object does a single
+          cohesive function. Behavioral patterns also focus on how independent objects work towards a common goal.
 
 ---
 
