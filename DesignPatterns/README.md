@@ -155,6 +155,19 @@
                   Composite objects. Example: In a File System, a Folder is a Composite because it can contain other
                   files and folders.
         - **Decorator Pattern**
+            - The Decorator pattern is a structural design pattern that allows you to add new functionality to an
+              existing object dynamically without altering its structure. This is achieved by creating decorator classes
+              that wrap the original class and provide additional functionality.
+            - The Decorator pattern is useful when you need to add new
+              functionality to an existing object without altering its structure. For example, if you have a class that
+              represents a car, you might want to add new features like a sunroof or a navigation system. The Decorator
+              pattern allows you to create decorators that add these features to the car. The Decorator pattern is also
+              useful when you need to add new functionality to an object in a flexible way. For example, if you have a
+              class that represents a text editor, you might want to add new features like spell checking or syntax
+              highlighting. The Decorator pattern allows you to create decorators that add these features to the text
+              editor.
+            - Java.io package uses decorator pattern. The `BufferedReader` and `BufferedWriter` classes are decorators
+              that add buffering to the `Reader` and `Writer` classes.
         - **Facade Pattern**
             - The façade design pattern attempts to provide a single, simplified interface for client classes to
               interact with a subsystem. It is a structural design pattern. A façade is a wrapper class that
@@ -162,10 +175,10 @@
               subsystem without adding more functionality in itself. The wrapper class allows a client class to interact
               with the subsystem through the façade. A façade might be compared metaphorically to a waiter or
               salesperson, who hides all the extra work to be done in order to purchase a good or service
-                - **Flyweight Pattern**
-                - **Proxy Pattern**
-        - **Behavioural Patterns:** focus on how objects distribute work and describe how each object does a single
-          cohesive function. Behavioral patterns also focus on how independent objects work towards a common goal.
+        - **Flyweight Pattern**
+        - **Proxy Pattern**
+    - **Behavioural Patterns:** focus on how objects distribute work and describe how each object does a single
+      cohesive function. Behavioral patterns also focus on how independent objects work towards a common goal.
 
 ---
 
