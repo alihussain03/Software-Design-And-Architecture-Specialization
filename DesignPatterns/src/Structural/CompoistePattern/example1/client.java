@@ -1,4 +1,4 @@
-package Structural.CompoistePattern.example1.componenet;
+package Structural.CompoistePattern.example1;
 
 public class client {
     public static void main(String[] args) {

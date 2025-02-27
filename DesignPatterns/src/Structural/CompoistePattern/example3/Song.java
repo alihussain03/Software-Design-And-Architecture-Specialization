@@ -1,4 +1,4 @@
-package Structural.CompoistePattern;
+package Structural.CompoistePattern.example3;
 
 public class Song implements IComponent {
     public String songName;

@@ -1,4 +1,4 @@
-package Structural.CompoistePattern;
+package Structural.CompoistePattern.example3;
 
 import java.util.ArrayList;
 

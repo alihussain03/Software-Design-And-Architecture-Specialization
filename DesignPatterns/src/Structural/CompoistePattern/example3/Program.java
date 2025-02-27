@@ -1,4 +1,4 @@
-package Structural.CompoistePattern;
+package Structural.CompoistePattern.example3;
 
 public class Program {
     public static void main(String args[]) {

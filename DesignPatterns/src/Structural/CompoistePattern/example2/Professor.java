@@ -1,18 +1,18 @@
 package Structural.CompoistePattern.example2;
 
 public class Professor implements Faculty {
-    private String mName;
-    private String mPosition;
-    private int mOfficeNum;
+    private String name;
+    private String position;
+    private int officeNum;
 
     Professor(String name, String position, int officeNum) {
-        mName = name;
-        mPosition = position;
-        mOfficeNum = officeNum;
+        this.name = name;
+        this.position = position;
+        this.officeNum = officeNum;
     }
 
     @Override
     public String getDetails() {
-        return (mName + " is the  " + mPosition);
+        return name + " is the " + position + " (Office: " + officeNum + ")";
     }
 }

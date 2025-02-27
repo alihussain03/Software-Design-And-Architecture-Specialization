@@ -1,4 +1,4 @@
-package Structural.CompoistePattern.example1.componenet;
+package Structural.CompoistePattern.example1;
 
 class Developer implements Employee {
     private String name;
