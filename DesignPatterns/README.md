@@ -126,6 +126,17 @@
       metaphor for considering structural patterns is that of pairing different kinds of foods together: flavor
       determines what ingredients can be mixed together to form a suitable relationship.
         - **Adapter Pattern**
+            - when you need to use an existing clas and its interfaces are not the one you need, we use Adapter pattern.
+            - The Adapter pattern is a structural design pattern that allows objects with incompatible interfaces to
+              work
+              together. It acts as a bridge between two incompatible interfaces, allowing them to work together. The
+              Adapter pattern is useful when you need to use an existing class that has an interface that is not
+              compatible with the interface that the client code expects. The Adapter pattern allows you to create an
+              adapter that adapts the existing class to match the expected interface, making it compatible with the
+              client code. The Adapter pattern is also useful when you need to use an existing class that has an
+              interface that is not compatible with the interface that the client code expects. The Adapter pattern
+              allows you to create an adapter that adapts the existing class to match the expected interface, making it
+              compatible with the client code.
             - Target: The Target is the interface or abstract class that the client code expects. It defines the
               expected behavior but doesn't necessarily have an implementation.
             - Adapter: A bridge between incompatible interfaces. It converts the Adaptee to the Target interface,
@@ -175,6 +186,13 @@
               subsystem without adding more functionality in itself. The wrapper class allows a client class to interact
               with the subsystem through the façade. A façade might be compared metaphorically to a waiter or
               salesperson, who hides all the extra work to be done in order to purchase a good or service
+            - The Facade pattern is useful when you need to provide a simple interface to a complex subsystem. For
+              example, if you have a class that represents a computer, you might have a set of classes that represent
+              the CPU, memory, and hard drive. The Facade pattern allows you to create a facade that provides a simple
+              interface to the computer. The Facade pattern is also useful when you need to provide a simple interface
+              to a complex system. For example, if you have a class that represents a compiler, you might have a set of
+              classes that represent the lexer, parser, and code generator. The Facade pattern allows you to create a
+              facade that provides a simple interface to the compiler.
         - **Flyweight Pattern**
         - **Proxy Pattern**
     - **Behavioural Patterns:** focus on how objects distribute work and describe how each object does a single
