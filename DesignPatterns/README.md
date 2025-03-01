@@ -194,6 +194,25 @@
               classes that represent the lexer, parser, and code generator. The Facade pattern allows you to create a
               facade that provides a simple interface to the compiler.
         - **Flyweight Pattern**
+            - The Flyweight pattern is a structural design pattern that allows you to share objects to reduce memory
+              usage. It is useful when you need to create a large number of similar objects. The Flyweight pattern
+              allows
+              you to create a pool of shared objects that can be reused. The Flyweight pattern is useful when you need
+              to
+              create a large number of similar objects. For example, if you have a class that represents a character in
+              a
+              game, you might need to create a large number of characters. The Flyweight pattern allows you to create a
+              pool of shared characters that can be reused. The Flyweight pattern is also useful when you need to create
+              a large number of objects that have a lot of shared state. For example, if you have a class that
+              represents
+              a text editor, you might need to create a large number of text objects. The Flyweight pattern allows you
+              to
+              create a pool of shared text objects that can be reused.
+            - The key elements of the Flyweight Pattern are:
+                - Flyweight Interface – Defines the common interface for shared objects.
+                - Concrete Flyweight – Implements the flyweight interface and stores intrinsic (shared) state.
+                - Unshared Flyweight – Objects that cannot be shared and contain extrinsic state.
+                - Flyweight Factory – Manages a pool of flyweight objects and provides shared instances.
         - **Proxy Pattern**
     - **Behavioural Patterns:** focus on how objects distribute work and describe how each object does a single
       cohesive function. Behavioral patterns also focus on how independent objects work towards a common goal.
