@@ -209,8 +209,11 @@
                 - Unshared Flyweight – Objects that cannot be shared and contain extrinsic state.
                 - Flyweight Factory – Manages a pool of flyweight objects and provides shared instances.
         - **Proxy Pattern**
-    - **Behavioural Patterns:** focus on how objects distribute work and describe how each object does a single
-      cohesive function. Behavioral patterns also focus on how independent objects work towards a common goal.
+    - **Behavioural Patterns:**  focus on how objects interact, share responsibilities, and collaborate to achieve a
+      common goal while maintaining a single, cohesive function. These patterns emphasize how work is distributed among
+      objects and ensure that each object performs a well-defined role. Examples include the Strategy, Observer, and
+      Chain of Responsibility patterns.
+        - **Command Pattern**:
 
 ---
 
