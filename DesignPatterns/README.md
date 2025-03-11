@@ -209,11 +209,6 @@
                 - Unshared Flyweight – Objects that cannot be shared and contain extrinsic state.
                 - Flyweight Factory – Manages a pool of flyweight objects and provides shared instances.
         - **Proxy Pattern**
-    - **Behavioural Patterns:**  focus on how objects interact, share responsibilities, and collaborate to achieve a
-      common goal while maintaining a single, cohesive function. These patterns emphasize how work is distributed among
-      objects and ensure that each object performs a well-defined role. Examples include the Strategy, Observer, and
-      Chain of Responsibility patterns.
-        - **Command Pattern**:
 
 ---
 
@@ -221,6 +216,19 @@
 
 How individual object collaborate to achieve a common goal.
 
+- **Strategy Pattern**
+    - The Strategy Pattern is a behavioral design pattern that defines a family of algorithms, encapsulates each one,
+      and makes them interchangeable at runtime. This allows the algorithm to vary independently of the client using
+      it.
+    - Encapsulates different behaviors (algorithms) into separate classes.
+    - Uses an interface to define common behavior.
+    - Allows swapping strategies dynamically at runtime.
+    - Avoids long if-else or switch-case statements.
+    - Key Classes
+        - Strategy Interface: Defines a common interface for all concrete strategies.
+        - Concrete Strategies: Implements the strategy interface with specific algorithms.
+        - Context: Contains a reference to the strategy interface and allows clients to switch strategies.
+        - Client: Uses the context to interact with the strategy.
 - **Template Method Pattern**
     - it defines an algorithm steps generally, deferring the implementation of some steps to subclasses. it is concerned
       with the assignment of responsibilities.
